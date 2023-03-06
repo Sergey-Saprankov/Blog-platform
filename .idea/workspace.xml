@@ -2,44 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d37774ac-54e2-44e5-a232-570151326071" name="Changes" comment="start proj, added config proj">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/.prettierrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/.stylelintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/config/build/buildDevServer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/config/build/buildLoaders.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/config/build/buildPlugins.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/config/build/buildResolvers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/config/build/buildWebpackConfig.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/config/build/types/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/app/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/app/providers/ThemeProvider/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/app/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/app/providers/ThemeProvider/lib/ThemeContext.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/app/providers/ThemeProvider/lib/useTheme.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/app/providers/ThemeProvider/ui/ThemeProvider.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/blog/src/app/styles/reset.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/blog/src/app/styles/themes/dark.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/blog/src/app/styles/themes/light.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/blog/src/app/styles/variables/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/app/types/global.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/pages/BlogPage/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/pages/BlogsPage/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/pages/BlogsPage/ui/BlogsPage.async.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/pages/BlogsPage/ui/BlogsPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/pages/PostPage/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/pages/PostsPage/index.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/blog/src/pages/PostsPage/ui/PostPage.async.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/blog/src/pages/PostsPage/ui/PostPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/shared/lib/classNames.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/webpack.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="SCSS File" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -124,8 +98,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678086957945</updated>
-      <workItem from="1678086959255" duration="9591000" />
+      <workItem from="1678086959255" duration="12036000" />
     </task>
+    <task id="LOCAL-00001" summary="start proj, added config proj">
+      <created>1678098084274</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678098084274</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
