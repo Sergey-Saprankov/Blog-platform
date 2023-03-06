@@ -1,11 +1,10 @@
 import React, { Suspense, useState } from 'react'
 
 import './styles/index.scss'
-import { Link, Route, Routes } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
+import { AppRouter } from 'app/providers/router'
 import { useTheme } from 'app/providers/ThemeProvider/lib/useTheme'
-import { BlogsPage } from 'pages/BlogsPage'
-import { PostsPage } from 'pages/PostsPage'
 import { classNames } from 'shared/lib/classNames'
 
 const App = () => {
@@ -16,12 +15,7 @@ const App = () => {
       <button onClick={toggleTheme}>Toggle theme</button>
       <Link to={'/posts'}>Posts</Link>
       <Link to={'/'}>Blogs</Link>
-      <Suspense fallback={<div>loading</div>}>
-        <Routes>
-          <Route path={'/'} element={<BlogsPage />} />
-          <Route path={'/posts'} element={<PostsPage />} />
-        </Routes>
-      </Suspense>
+      <AppRouter />
     </div>
   )
 }

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d37774ac-54e2-44e5-a232-570151326071" name="Changes" comment="added theme provider">
+    <list default="true" id="d37774ac-54e2-44e5-a232-570151326071" name="Changes" comment="added classNames.ts">
+      <change afterPath="$PROJECT_DIR$/blog/src/app/providers/router/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/app/providers/router/ui/AppRouter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/shared/config/routeConfig/routeConfig.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/shared/lib/classNames.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/shared/lib/classNames.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678086957945</updated>
-      <workItem from="1678086959255" duration="14277000" />
+      <workItem from="1678086959255" duration="17768000" />
     </task>
     <task id="LOCAL-00001" summary="start proj, added config proj">
       <created>1678098084274</created>
@@ -105,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678100536694</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added classNames.ts">
+      <created>1678103256478</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678103256478</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +134,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start proj, added config proj" />
     <MESSAGE value="added theme provider" />
-    <option name="LAST_COMMIT_MESSAGE" value="added theme provider" />
+    <MESSAGE value="added classNames.ts" />
+    <option name="LAST_COMMIT_MESSAGE" value="added classNames.ts" />
   </component>
 </project>
