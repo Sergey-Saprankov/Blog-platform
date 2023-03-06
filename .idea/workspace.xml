@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d37774ac-54e2-44e5-a232-570151326071" name="Changes" comment="start proj, added config proj">
-      <change afterPath="$PROJECT_DIR$/blog/src/app/providers/ThemeProvider/lib/ThemeContext.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/app/providers/ThemeProvider/lib/useTheme.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/app/providers/ThemeProvider/ui/ThemeProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/app/styles/reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/app/styles/themes/dark.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/app/styles/themes/light.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/app/styles/variables/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/pages/PostsPage/ui/PostPage.async.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/pages/PostsPage/ui/PostPage.tsx" afterDir="false" />
+    <list default="true" id="d37774ac-54e2-44e5-a232-570151326071" name="Changes" comment="added theme provider">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/shared/lib/classNames.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/shared/lib/classNames.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678086957945</updated>
-      <workItem from="1678086959255" duration="12036000" />
+      <workItem from="1678086959255" duration="14277000" />
     </task>
     <task id="LOCAL-00001" summary="start proj, added config proj">
       <created>1678098084274</created>
@@ -107,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678098084274</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added theme provider">
+      <created>1678100536694</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678100536694</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start proj, added config proj" />
-    <option name="LAST_COMMIT_MESSAGE" value="start proj, added config proj" />
+    <MESSAGE value="added theme provider" />
+    <option name="LAST_COMMIT_MESSAGE" value="added theme provider" />
   </component>
 </project>
